@@ -68,6 +68,8 @@ function onClickDelete(){
         document.getElementById("showMissions").innerHTML += `<h3>Mission name = ${missionNameArray[i]}</h3>`
         document.getElementById("showMissions").innerHTML += `<h3>Mission priority = ${missionPriorityArray[i]}</h3>`
         document.getElementById("showMissions").innerHTML += `<h3>Danger Level = ${dangerLevelArray[i]}</h3>`
-    }
-    
+    }    
+
+
+    document.getElementById("chooseMissionToDelete").value = ``
 }
