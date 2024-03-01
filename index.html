@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missions Project</title>
+</head>
+<body>
+    <input type="text" id="missionName"> Name of Mission
+    <br>
+    <input type="number" max="10"  id="missionPriority"> Mission Priority
+    <br>
+    <input type="number" max="5" id="dangerLevel"> Danger Level
+    <br><br>
+    <button onclick="onClickSubmit()">Submit</button>
+    <br><br>
+    <input type="number" id="chooseMissionToDelete"> Choose mission to delete
+    <br><br>
+    <button onclick="onClickDelete()">Delete a mission</button>
+    <br>
+    <div id="showMissions"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
