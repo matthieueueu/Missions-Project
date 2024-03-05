@@ -1,8 +1,10 @@
 body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-image:url("https://m.media-amazon.com/images/I/51gmOBxGLCL._AC_UF894,1000_QL80_.jpg") ;
+    font-family: cursive;    
+    background-image:url("https://m.media-amazon.com/images/I/51gmOBxGLCL._AC_UF894,1000_QL80_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 button{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:cursive;
 }

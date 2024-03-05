@@ -55,6 +55,8 @@ function onClickDelete(){
     missionPriorityArray.splice(missionToDelete-1,1)
     dangerLevelArray.splice(missionToDelete-1,1)
 
+    alert(`Mission ${missionToDelete} successfully deleted`)
+
     print(missionNameArray) 
     print('length of updated array', missionNameArray.length)
     document.getElementById("showMissions").innerHTML = ``
