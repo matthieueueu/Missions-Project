@@ -1,5 +1,8 @@
+*{
+    font-family: cursive;  
+
+}
 body{
-    font-family: cursive;    
     background-image:url("https://m.media-amazon.com/images/I/51gmOBxGLCL._AC_UF894,1000_QL80_.jpg");
     background-repeat: no-repeat;
     background-size: cover;
